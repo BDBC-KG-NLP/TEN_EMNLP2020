@@ -8,6 +8,12 @@ Existing Dialogue state tracking (DST) models either ignore temporal feature dep
   <img src="./fig/ten.png">
 </p>
 
+One of the insights in this work is that when a hard decision is made on the soft-label, the errors it creates may propagate to future turns, resulting in errors in future state aggregation. We insist that the soft-label of Y layer and X layer should be maintained, so that the uncertainties in state aggregation can be kept in modeling. Thus we propose a state aggregation approach based on the factor graphs and handle with these uncertainties using the belief propagation. The factor graphs for state aggregation is shown in Figure 2.
+
+<p align="center">
+  <img src="./fig/fg.png">
+</p>
+
 
 ## References
 [Henderson et al., 2014] Matthew Henderson, Blaise Thomson and Steve J. Young. Word-Based Dialog State Tracking with Recurrent Neural Networks. In SIGDIAL 2014.
