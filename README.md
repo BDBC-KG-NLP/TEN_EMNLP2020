@@ -5,7 +5,7 @@ The code and data for the Findings of EMNLP 2020 paper: [Neural Dialogue State T
 Existing Dialogue state tracking (DST) models either ignore temporal feature dependencies across dialogue turns (Explicit Tracking models, such as NBT (Mrksic et al., 2017) and GLAD (Zhong et al., 2018)) or fail to explicitly model temporal state dependencies in a dialogue (Implicit Tracking models, such as (Henderson et al., 2014; Mrksic et al., 2015; Ren et al., 2018; Ramadan et al., 2018; Lee et al., 2019)). In this work, we propose Temporally Expressive Networks (TEN) to jointly model the two types of temporal dependencies in DST. The TEN model utilizes the power of hierarchical recurrent networks and probabilistic graphical models (factor graphs). The structures of the Explicit Tracking models, the Implicit Tracking models and our proposed model are presented in Figure 1.
 
 <p align="center">
-  <img src="https://github.com/BDBC-KG-NLP/TEN_EMNLP2020/tree/master/fig/ten.png">
+  <img src="./fig/ten.png">
 </p>
 
 
