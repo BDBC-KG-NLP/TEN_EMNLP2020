@@ -20,6 +20,10 @@ The main experimental results are presented in Table 1. Besides the results of p
   <img src="./fig/result.png">
 </p>
 
+## Datasets
+The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "data.zip" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/4pOuEeSF).
+
+
 
 ## References
 [Henderson et al., 2014] Matthew Henderson, Blaise Thomson and Steve J. Young. Word-Based Dialog State Tracking with Recurrent Neural Networks. In SIGDIAL 2014.
