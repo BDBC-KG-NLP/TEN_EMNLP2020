@@ -14,7 +14,7 @@ One of the insights in this work is that when a hard decision is made on the sof
   <img src="./fig/fg.png">
 </p>
 
-The main experimental results are presented in Table 1. The proposed TEN model has demonstrated to be effective in standard DST datasets (including DSTC2, WOZ and MultiWOZ). TEN became the new state-of-the-art model on the DSTC2 dataset and a state-of-the-art comparable model on the WOZ dataset. But the limitation of TEN as well as most of the DST models building upon a pre-defined ontology (such as NBT, GLAD, SUMBT) is that they have trouble applying to multi-domain DST, comparing to models specifically designed for the multi-domain setting (such as HyST (Goel et al., 2019), DSTRead (Gao et al., 2019), and TRADE (Wu et al., 2019)).
+The main experimental results are presented in Table 1. Besides the results of previous works, we also report the results of the ablated models TEN-XH, TEN-X and TEN-Y. The proposed TEN model has demonstrated to be effective in standard DST datasets (including DSTC2, WOZ and MultiWOZ). TEN became the new state-of-the-art model on the DSTC2 dataset and a state-of-the-art comparable model on the WOZ dataset. But the limitation of TEN as well as most of the DST models building upon a pre-defined ontology (such as NBT, GLAD, SUMBT) is that they have trouble applying to multi-domain DST, comparing to models specifically designed for the multi-domain setting (such as HyST (Goel et al., 2019), DSTRead (Gao et al., 2019), and TRADE (Wu et al., 2019)).
 
 <p align="center">
   <img src="./fig/result.png">
