@@ -2,7 +2,7 @@
 The code and data for the Findings of EMNLP 2020 paper: [Neural Dialogue State Tracking with Temporally Expressive Networks](https://arxiv.org/pdf/2009.07615.pdf)
 
 ## Description
-Existing Dialogue state tracking (DST) models either ignore temporal feature dependencies across dialogue turns (Explicit Tracking models, such as NBT (Mrksic et al., 2017) and GLAD (Zhong et al., 2018)) or fail to explicitly model temporal state dependencies in a dialogue (Implicit Tracking models, such as (Henderson et al., 2014; Mrksic et al., 2015; Ren et al., 2018; Ramadan et al., 2018; Lee et al., 2019)). In this work, we propose Temporally Expressive Networks (TEN) to jointly model the two types of temporal dependencies in DST. The TEN model utilizes the power of hierarchical recurrent networks and probabilistic graphical models (factor graphs). The structures of the Explicit Tracking models, the Implicit Tracking models and our proposed model are presented in Figure 1.
+Existing Dialogue state tracking (DST) models either ignore __temporal feature dependencies__ across dialogue turns (__Explicit Tracking models__, such as NBT (Mrksic et al., 2017) and GLAD (Zhong et al., 2018)) or fail to explicitly model __temporal state dependencies__ in a dialogue (__Implicit Tracking models__, such as (Henderson et al., 2014; Mrksic et al., 2015; Ren et al., 2018; Ramadan et al., 2018; Lee et al., 2019)). In this work, we propose Temporally Expressive Networks (TEN) to jointly model the two types of temporal dependencies in DST. The TEN model utilizes the power of __hierarchical recurrent networks__ and probabilistic graphical models (__factor graphs__). The structures of the Explicit Tracking models, the Implicit Tracking models and our proposed model are presented in Figure 1.
 
 <p align="center">
   <img src="./fig/ten.png">
@@ -21,7 +21,7 @@ The main experimental results are presented in Table 1. Besides the results of p
 </p>
 
 ## Datasets
-The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "data.zip" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ) (access code: ac0f).
+The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "__data.zip__" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ) (access code: ac0f). If you use a new dataset, you should first transform the data format as the same as the __.json__ file in ./data/DSTC2/raw, then process it by running __preprocess_data.py__.
 
 
 
