@@ -21,7 +21,7 @@ The main experimental results are presented in Table 1. Besides the results of p
 </p>
 
 ## Datasets
-The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "data.zip" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ)(access code: ac0f).
+The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "data.zip" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ) (access code: ac0f).
 
 
 
