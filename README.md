@@ -14,6 +14,12 @@ One of the insights in this work is that when a hard decision is made on the sof
   <img src="./fig/fg.png">
 </p>
 
+The main experimental results are presented in Table 1. The proposed TEN model has demonstrated to be effective in standard DST datasets (including DSTC2, WOZ and MultiWOZ). TEN became the new state-of-the-art model on the DSTC2 dataset and a state-of-the-art comparable model on the WOZ dataset. But the limitation of TEN as well as most of the DST models building upon a pre-defined ontology (such as NBT, GLAD, SUMBT) is that they have trouble applying to multi-domain DST, comparing to models specifically designed for the multi-domain setting (such as HyST (Goel et al., 2019), DSTRead (Gao et al., 2019), and TRADE (Wu et al., 2019)).
+
+<p align="center">
+  <img src="./fig/result.png">
+</p>
+
 
 ## References
 [Henderson et al., 2014] Matthew Henderson, Blaise Thomson and Steve J. Young. Word-Based Dialog State Tracking with Recurrent Neural Networks. In SIGDIAL 2014.
@@ -30,3 +36,8 @@ One of the insights in this work is that when a hard decision is made on the sof
 
 [Lee et al., 2019] Hwaran Lee, Jinsik Lee and Tae-Yoon Kim. SUMBT: Slot-Utterance Matching for Universal and Scalable Belief Tracking. In ACL 2019.
 
+[Goel et al., 2019] Rahul Goel, Shachi Paul and Dilek Hakkani-Tur. HyST: A Hybrid Approach for Flexible and Accurate Dialogue State Tracking. In Interspeech 2019.
+
+[Gao et al., 2019] Shuyang Gao, Abhishek Sethi, Sanchit Agarwal, Tagyoung Chung and Dilek Hakkani-Tur. Dialog State Tracking: A Neural Reading Comprehension Approach. In SIGdial 2019.
+
+[Wu et al., 2019] Chien-Sheng Wu, Andrea Madotto, Ehsan Hosseini-Asl, Caiming Xiong, Richard Socher and Pascale Fung. Transferable Multi-Domain State Generator for Task-Oriented Dialogue Systems. In ACL 2019.
