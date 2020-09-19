@@ -23,7 +23,11 @@ The main experimental results are presented in Table 1. Besides the results of p
 ## Datasets
 The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "__data.zip__" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ) (access code: ac0f). If you use a new dataset, you should first transform the data format as the same as the __.json__ file in ./data/DSTC2/raw, then process it by running __preprocess_data.py__.
 
-
+## Training and Evaluation
++ Unzip the processed data into the "__data__" directory.
++ Configurate the models in the __config.py__. The default configurations for TEN-XH,TEN-X,TEN-Y and TEN are provided but commented. If you want to use the default configurations, just __uncomment the corresponding lines__. Note that the TEN model is initialized by a pre-trained TEN-X model, so before you run the TEN model, you should first run a TEN-X model and set the "__args\['resume'\]__" in the config.py.
++ Training: use the command __sh run.sh__ to run the models.
++ Test: use the command __sh test.sh__ to evaluate the models.
 
 ## References
 [Henderson et al., 2014] Matthew Henderson, Blaise Thomson and Steve J. Young. Word-Based Dialog State Tracking with Recurrent Neural Networks. In SIGDIAL 2014.
