@@ -21,7 +21,7 @@ The main experimental results are presented in Table 1. Besides the results of p
 </p>
 
 ## Datasets
-The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "__data.zip__" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1Fl13MAP8nVtONAc3KQGdAQ) (access code: ac0f). If you use a new dataset, you should first transform the data format as the same as the __.json__ file in ./data/DSTC2/raw, then process it by running __preprocess_data.py__.
+The datasets used in this paper include DSTC2, WOZ and MultiWOZ. All of the 3 datasets are publicly available. Here we provide the processed version of the 3 datasets. You can download the zipped datasets "__data.zip__" from the [Google Drive](https://drive.google.com/drive/folders/1iLlsd5BeTmbuyuLWus4rJeCx5HMI6ocd?usp=sharing) or the [Baidu Cloud](https://pan.baidu.com/s/1p78h0LMT1YmZMxIMB8IpOA) (access code: iqp7). If you use a new dataset, you should first transform the data format as the same as the __.json__ file in ./data/DSTC2/raw, then process it by running __preprocess_data.py__.
 
 ## Training and Evaluation
 + Unzip the processed data into the "__data__" directory.
